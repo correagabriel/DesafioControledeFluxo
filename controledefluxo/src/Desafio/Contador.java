@@ -15,7 +15,6 @@ public class Contador {
 
                 contarNumero(numero1,numero2); //chamando a função
         
-        
         }catch(ParamettrosInvalidos e){ //O catch por sua vez faz o tratamento dos erros que aconteceram.
             System.out.println("Numeros Invalidos"); //CHAMANDO A FUNÇÃO ParamettrosInvalidos
             e.printStackTrace(); //usado para imprimir o nome da classe e numero de linha de exceção
